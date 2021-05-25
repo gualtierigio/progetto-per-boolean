@@ -1,0 +1,101 @@
+/* Formattazione pagina */
+
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: garamond;
+}
+
+.container{
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 20px;
+  border-radius: 25px;
+  padding-top: 30px;
+  padding-bottom: 120px;
+}
+
+header{
+  text-align: center;
+  padding-top: 5%;
+}
+
+img{
+  width: 180px;
+}
+
+main{
+  width: 700px;
+  margin: auto;
+}
+
+header > h2{
+  color: lime;
+}
+
+/* Button style */
+
+.button-section{
+  background-color: lime;
+  margin: auto;
+}
+
+.button-size{
+  display: block;
+  margin: auto;
+  padding: 8px;
+  text-align: center;
+}
+
+button{
+  text-align: center;
+  width: auto;
+  font-size: 9px;
+}
+
+/* Testo Monopattino */
+
+.mono{
+  color: white;
+  margin-top: 20px;
+}
+
+h3{
+  display: inline-block;
+}
+
+p{
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Stato carica monopattini */
+
+.carica-bassa{
+  background-color: #ff5450;
+  width: 100px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.carica-media{
+  background-color: yellow;
+  width: 250px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.carica-alta{
+  background-color: lime;
+  width: 400px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/* Margini fissi */
+*{
+  box-sizing:border-box;
+  margin: 0;
+}
